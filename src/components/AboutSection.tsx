@@ -42,7 +42,7 @@ const AboutSection = () => {
             DevOps.
           </p>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-10">
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-6 mt-10">
             {skills.map((skill, index) => (
               <motion.div
                 key={skill.label}
