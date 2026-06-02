@@ -25,7 +25,7 @@ const services = [
   {
     icon: Cloud,
     title: "Cloud Infrastructure & DevOps Engineering",
-    description: "AWS, Azure, Docker, CI/CD, Kubernetes",
+    description: "AWS, Azure, OpenStack, Docker, CI/CD, Kubernetes",
     details: "Déploiement d'infrastructures cloud scalables, automatisation des pipelines et orchestration de conteneurs.",
   },
 ];
