@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { Globe, Smartphone, LayoutDashboard } from "lucide-react";
+import { Globe, Smartphone, LayoutDashboard, Cloud } from "lucide-react";
 
 const services = [
   {
