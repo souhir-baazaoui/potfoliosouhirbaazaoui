@@ -1,11 +1,12 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { Code2, Server, Database, Boxes } from "lucide-react";
+import { Code2, Server, Database, Boxes, Cloud } from "lucide-react";
 
 const skills = [
   { icon: Code2, label: "Development" },
   { icon: Server, label: "DevOps" },
+  { icon: Cloud, label: "Cloud" },
   { icon: Database, label: "Databases" },
   { icon: Boxes, label: "Containers" },
 ];
