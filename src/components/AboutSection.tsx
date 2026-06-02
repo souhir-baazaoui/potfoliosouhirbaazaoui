@@ -1,11 +1,12 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { Code2, Server, Database, Boxes } from "lucide-react";
+import { Code2, Server, Database, Boxes, Cloud } from "lucide-react";
 
 const skills = [
   { icon: Code2, label: "Development" },
   { icon: Server, label: "DevOps" },
+  { icon: Cloud, label: "Cloud" },
   { icon: Database, label: "Databases" },
   { icon: Boxes, label: "Containers" },
 ];
@@ -35,13 +36,13 @@ const AboutSection = () => {
           <p className="text-lg text-muted-foreground leading-relaxed text-center font-body">
             Ingénieure en génie logiciel orientée DevOps et systèmes, maîtrisant
             le développement d'applications. Compétences en conception,
-            développement et déploiement d'applications, administration Linux et
-            conteneurisation avec Docker. Intérêt particulier pour
+            développement et déploiement d'applications, administration Linux,
+            conteneurisation avec Docker et cloud. Intérêt particulier pour
             l'automatisation, l'intégration continue et les bonnes pratiques
             DevOps.
           </p>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-10">
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-6 mt-10">
             {skills.map((skill, index) => (
               <motion.div
                 key={skill.label}
