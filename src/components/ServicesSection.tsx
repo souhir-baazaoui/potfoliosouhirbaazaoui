@@ -22,6 +22,12 @@ const services = [
     description: "Portail multi-profils, dashboards, authentification",
     details: "Solutions logicielles complètes avec gestion des utilisateurs et analytics.",
   },
+  {
+    icon: Cloud,
+    title: "Cloud Infrastructure & DevOps Engineering",
+    description: "AWS, Azure, Docker, CI/CD, Kubernetes",
+    details: "Déploiement d'infrastructures cloud scalables, automatisation des pipelines et orchestration de conteneurs.",
+  },
 ];
 
 const ServicesSection = () => {
@@ -47,7 +53,7 @@ const ServicesSection = () => {
           Des solutions sur mesure pour vos besoins numériques
         </motion.p>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service, index) => (
             <motion.div
               key={service.title}
