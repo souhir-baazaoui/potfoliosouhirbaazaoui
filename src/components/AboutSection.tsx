@@ -36,8 +36,8 @@ const AboutSection = () => {
           <p className="text-lg text-muted-foreground leading-relaxed text-center font-body">
             Ingénieure en génie logiciel orientée DevOps et systèmes, maîtrisant
             le développement d'applications. Compétences en conception,
-            développement et déploiement d'applications, administration Linux et
-            conteneurisation avec Docker. Intérêt particulier pour
+            développement et déploiement d'applications, administration Linux,
+            conteneurisation avec Docker et cloud. Intérêt particulier pour
             l'automatisation, l'intégration continue et les bonnes pratiques
             DevOps.
           </p>
