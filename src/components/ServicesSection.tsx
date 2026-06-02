@@ -53,7 +53,7 @@ const ServicesSection = () => {
           Des solutions sur mesure pour vos besoins numériques
         </motion.p>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service, index) => (
             <motion.div
               key={service.title}
