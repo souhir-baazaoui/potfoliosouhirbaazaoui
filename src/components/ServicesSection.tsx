@@ -22,6 +22,12 @@ const services = [
     description: "Portail multi-profils, dashboards, authentification",
     details: "Solutions logicielles complètes avec gestion des utilisateurs et analytics.",
   },
+  {
+    icon: Cloud,
+    title: "Cloud Infrastructure & DevOps Engineering",
+    description: "AWS, Azure, Docker, CI/CD, Kubernetes",
+    details: "Déploiement d'infrastructures cloud scalables, automatisation des pipelines et orchestration de conteneurs.",
+  },
 ];
 
 const ServicesSection = () => {
