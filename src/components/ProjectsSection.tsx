@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { ExternalLink, Github, CheckSquare, Package } from "lucide-react";
+import { ExternalLink, Github, Cloud, Package } from "lucide-react";
 
 const projects = [
   {
