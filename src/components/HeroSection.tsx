@@ -81,13 +81,17 @@ const HeroSection = () => {
             <Mail size={24} />
           </a>
           <a
-            href="#"
+            href="https://github.com/settings/profile"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors"
           >
             <Github size={24} />
           </a>
           <a
-            href="#"
+            href="https://www.linkedin.com/in/souhir-baazaoui-22427119b/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors"
           >
             <Linkedin size={24} />

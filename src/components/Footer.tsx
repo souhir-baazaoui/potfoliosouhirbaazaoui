@@ -22,13 +22,17 @@ const Footer = () => {
               <Mail className="w-5 h-5" />
             </a>
             <a
-              href="#"
+              href="https://github.com/settings/profile"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-10 h-10 rounded-full glass flex items-center justify-center text-muted-foreground hover:text-primary hover:scale-110 transition-all"
             >
               <Github className="w-5 h-5" />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/souhir-baazaoui-22427119b/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-10 h-10 rounded-full glass flex items-center justify-center text-muted-foreground hover:text-primary hover:scale-110 transition-all"
             >
               <Linkedin className="w-5 h-5" />
