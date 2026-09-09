@@ -34,12 +34,11 @@ const AboutSection = () => {
           className="glass rounded-2xl p-8 md:p-12 glow-box"
         >
           <p className="text-lg text-muted-foreground leading-relaxed text-center font-body">
-            Ingénieure en génie logiciel orientée DevOps et systèmes, maîtrisant
-            le développement d'applications. Compétences en conception,
-            développement et déploiement d'applications, administration Linux,
-            conteneurisation avec Docker et cloud. Intérêt particulier pour
-            l'automatisation, l'intégration continue et les bonnes pratiques
-            DevOps.
+            Ingénieure en informatique et génie logiciel, spécialisée en Cloud & DevOps,
+            avec une expérience professionnelle en France et à l'international. Mon parcours
+            combine développement logiciel, infrastructures cloud, DevOps, automatisation
+            et gestion de projets techniques. Polyvalente, rigoureuse et orientée résolution
+            de problèmes, je souhaite mettre mes compétences au service de projets innovants.
           </p>
 
           <div className="grid grid-cols-2 md:grid-cols-5 gap-6 mt-10">

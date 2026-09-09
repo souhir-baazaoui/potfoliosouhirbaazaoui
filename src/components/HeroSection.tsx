@@ -34,7 +34,7 @@ const HeroSection = () => {
           transition={{ delay: 0.4 }}
           className="text-4xl md:text-6xl font-bold mb-4 glow-text"
         >
-          Ingénieure Génie Logiciel
+          Ingénieure Cloud & DevOps
         </motion.h2>
 
         <motion.p
@@ -43,8 +43,9 @@ const HeroSection = () => {
           transition={{ delay: 0.6 }}
           className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8 font-body"
         >
-          Ingénieure logicielle passionnée par les technologies modernes,
-          spécialisée dans DevOps et systèmes.
+          Ingénieure en informatique et génie logiciel, spécialisée en Cloud & DevOps.
+          Expérience professionnelle en France et à l'international, alliant développement
+          logiciel, infrastructures cloud et gestion de projets techniques.
         </motion.p>
 
         <motion.div

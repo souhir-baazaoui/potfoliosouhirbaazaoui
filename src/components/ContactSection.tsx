@@ -62,14 +62,17 @@ const ContactSection = () => {
                   <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
                     <MapPin className="w-5 h-5 text-primary-foreground" />
                   </div>
-                  Tunisie
+                  Île-de-France, France / Tunisie
                 </div>
-                <div className="flex items-center gap-4 text-muted-foreground font-body">
+                <a
+                  href="tel:+33758562619"
+                  className="flex items-center gap-4 text-muted-foreground hover:text-primary transition-colors font-body"
+                >
                   <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
                     <Phone className="w-5 h-5 text-primary-foreground" />
                   </div>
-                  Disponible sur demande
-                </div>
+                  +33 7 58 56 26 19
+                </a>
               </div>
             </div>
           </motion.div>
