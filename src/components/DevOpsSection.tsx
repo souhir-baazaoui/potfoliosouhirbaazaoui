@@ -7,22 +7,22 @@ const devopsSkills = [
   {
     icon: Container,
     title: "Conteneurisation & Orchestration",
-    skills: ["Docker", "Docker Compose", "Kubernetes (notions)"],
+    skills: ["Docker", "Docker Swarm", "Docker Compose", "Kubernetes (notions)"],
   },
   {
     icon: GitBranch,
     title: "CI/CD & Automatisation",
-    skills: ["Git / GitHub Actions", "Jenkins (notions)", "Automatisation des scripts Shell"],
+    skills: ["Git / GitHub Actions", "Jenkins", "Gitea Actions", "GitLab CI/CD", "Bash scripting"],
   },
   {
     icon: Cloud,
-    title: "Systèmes & Cloud",
-    skills: ["Linux (Ubuntu, Debian)", "Serveurs web Nginx / Apache", "Cloud : AWS / notions Azure"],
+    title: "Cloud & IaC",
+    skills: ["OpenStack", "AWS / Azure (notions)", "Terraform", "Ansible", "Linux (Ubuntu)"],
   },
   {
     icon: Activity,
-    title: "Monitoring & Bonnes pratiques",
-    skills: ["Surveillance des serveurs (top, htop, logs)", "Pratiques GitFlow & gestion de version", "Infrastructure as Code (notions)"],
+    title: "Monitoring & DevSecOps",
+    skills: ["Prometheus", "Grafana", "SonarQube", "Trivy", "Infrastructure as Code"],
   },
 ];
 

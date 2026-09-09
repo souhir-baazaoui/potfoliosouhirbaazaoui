@@ -1,20 +1,20 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { ExternalLink, Github, CheckSquare, Package } from "lucide-react";
+import { ExternalLink, Github, Cloud, Package } from "lucide-react";
 
 const projects = [
   {
-    title: "Projet Tasks",
-    description: "Application de gestion de tâches avec authentification et collaboration en temps réel.",
-    icon: CheckSquare,
-    tags: ["React", "Node.js", "MongoDB"],
+    title: "SoverFlow",
+    description: "Plateforme CI/CD souveraine sur cloud privé OpenStack pour applications MERN/MEAN. Architecture DevOps/DevSecOps avec provisioning Terraform, configuration Ansible, pipeline Gitea Actions, scans SonarQube/Trivy et monitoring Prometheus/Grafana.",
+    icon: Cloud,
+    tags: ["OpenStack", "Terraform", "Ansible", "Gitea Actions", "Docker Swarm", "Prometheus", "Grafana"],
   },
   {
-    title: "Gestion de Stock",
-    description: "Système complet de gestion d'inventaire avec dashboard analytics et alertes automatiques.",
+    title: "ERP VAGA Alarme",
+    description: "Conception et développement d'un logiciel ERP adapté aux besoins opérationnels de l'entreprise : modules fonctionnels, intégration, tests et validation.",
     icon: Package,
-    tags: ["Angular", "Spring Boot", "PostgreSQL"],
+    tags: ["ERP", "Développement logiciel", "Tests logiciels"],
   },
 ];
 
